@@ -1,1 +1,1 @@
-# Etch-A-Sketch | TOP project
+# Etch A Sketch - The Odin Project

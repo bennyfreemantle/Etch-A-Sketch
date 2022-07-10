@@ -4,14 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>ETCH-A-SKETCH</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="grid-container">
-      <h1 class="title">Etch A Sketch</h1>
-      <span class="left-thumb-sticks"></span>
-      <span class="right-thumb-sticks"></span>
+    <header>
+      <h1>Etch-a-Sketch</h1>
+    </header>
+    <div class="container">
+      <div class="sketch-tools">
+        <div class="colour-picker-container">
+          <input type="color" name="picker" id="picker" />
+        </div>
+        <button id="rainbow-button">Rainbow Pen - OFF</button>
+        <button id="clear-screen">Clear Screen</button>
+
+        <div class="slider-container">
+          <input type="range" min="16" max="64" name="slider" id="slider" />
+          <p></p>
+        </div>
+      </div>
+      <div class="sketch-pad"></div>
     </div>
     <script src="app.js" defer></script>
   </body>
